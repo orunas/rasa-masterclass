@@ -128,7 +128,7 @@ class FindHealthCareAddress(Action):
 
     def run(self,
             dispatcher: CollectingDispatcher,
-            tracker: Tracker,
+            tracker: Tracker,utter_how_can_i_help
             domain: Dict[Text, Any]) -> List[Dict]:
 
         facility_type = tracker.get_slot("facility_type")
